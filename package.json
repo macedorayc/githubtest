@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"nodemon github.js"
   },
-  "type":"modules",
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
