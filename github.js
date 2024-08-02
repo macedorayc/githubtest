@@ -9,11 +9,11 @@ servidor.get('/projeto/soma/:n1/:n2', (req, resp) => {
 
     let soma = n1 + n2
 
-
-    resp.send('A soma é ' + soma);
+    resp.send({
+        soma:soma
+    });
 
 })
-
 
 servidor.listen(
     5050,
